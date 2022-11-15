@@ -1,6 +1,0 @@
-@tailwind base;
-html{
-  font-family: 'Montserrat', sans-serif;
-}
-@tailwind components;
-@tailwind utilities;
