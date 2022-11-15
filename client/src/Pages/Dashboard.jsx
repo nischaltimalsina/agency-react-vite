@@ -1,15 +1,11 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import Sidebar from '../Layout/components/Sidebar'
+
 const Dashboard = () => {
-const navigate = useNavigate()
-  const handleNav =() =>{
-    document.getElementById("nav").innerHTML="Hello World";
-    return navigate('/home');
-  }
   return (
     <div>
-      <p id='nav'></p>
-      <button onClick={handleNav}>Vlkadfjsb</button>
+      <Sidebar/>
+      <button >Vlkadfjsb</button>
     </div>
   )
 }

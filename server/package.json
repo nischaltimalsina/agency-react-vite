@@ -1,0 +1,11 @@
+{
+	"name": "agency-server",
+	"version": "1.0.0",
+	"description": "Backend- Headless Sever For Agency ",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon index.js"
+	},
+	"author": "Nischal Timalsina",
+	"license": "MIT"
+}
